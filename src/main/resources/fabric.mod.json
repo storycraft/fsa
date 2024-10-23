@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "fsa-world",
+	"version": "${version}",
+	"name": "Snow worldgen",
+	"description": "Adds snow world type",
+	"authors": [
+		"storycraft <storycraft@pancake.sh>"
+	],
+	"contact": {
+		"homepage": "https://pancake.sh",
+		"sources": "https://github.com/storycraft/fsa-world"
+	},
+	"license": "MIT",
+	"icon": "assets/fsa-world/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"sh.pancake.fsa.Mod"
+		]
+	},
+	"mixins": [
+		"fsa-world.mixins.json"
+	],
+	"accessWidener": "fsa-world.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.2",
+		"java": ">=21"
+	},
+	"suggests": {}
+}
